@@ -4,11 +4,14 @@
    
     
 }
+body {
+    background-color: var(--Light-Grey, #D5E1EF);
+}
 .box0 {
     display: flex;
     padding: 152px 0px 151px 0px;
     justify-content: center;
-    background-color: var(--Light-Grey, #D5E1EF);
+    
     width: 100%;
 }
 .box1 {
@@ -75,7 +78,6 @@ p {
         padding: 85px 27px 85px 28px;
         width: 375px;
         height: 667px;
-        
         align-items: center;
     }
     .box1 {
